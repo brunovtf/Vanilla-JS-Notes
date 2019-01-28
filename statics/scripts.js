@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function( ) {
 
             notes.push({"name":note_name, "content":note_content});
             localStorage.setItem("notes", JSON.stringify(notes) );
-            alert("Note saved in your computer!")
+            alert("Note saved with success!")
 
         // Rename Note
         } else if (e.target.className == "note-name"){ 
