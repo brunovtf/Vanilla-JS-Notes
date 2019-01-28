@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function( ) {
                 {} // doesn't show the default note if there's saved notes on the localStorage
             } else {
                 let new_note = default_note.cloneNode(true);
-                new_note.childNodes[1].innerHTML = notes[i]["name"];
-                new_note.childNodes[3].innerHTML = notes[i]["content"];
+                new_note.childNodes[1].innerHTML = notes[i]["name"] || "Click to Rename";
+                new_note.childNodes[3].innerHTML = notes[i]["content"] || "";
                 new_note.style.display = "";
                 note_list.appendChild(new_note);
             }
