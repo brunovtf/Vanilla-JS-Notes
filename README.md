@@ -5,3 +5,5 @@ I'm clearly learning how to manipulate DOM elements and HTML Nodes.
 It's been fun, but I'm eager to start using Vue.js, lol.
 
 Author: Bruno V. Freitas
+
+access the project online: https://vanillajsnote.netlify.com/
